@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Form</title>
+    <style></style>
+    <link rel="stylesheet" href="customerform.css">
+    <link href="https://db.onlinewebfonts.com/c/9532a7fcc432eabd27b572b6c75ac34a?family=Cubao+Free+Narrow" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link href="https://db.onlinewebfonts.com/c/1861a2db3737977c38401100176fcad1?family=Hussar+Bold" rel="stylesheet">        
+    
+</head>
+<body>
+    <div class="conthome">
+        
+        <div class="title">
+            <div><h3>SAVORY</h3></div>
+            <div><h1>HAVEN</h1></div>
+            <img src="assets/paper.png" alt="">
+            <p>Easily select your desired products or services, specify quantities, and provide necessary details for a seamless ordering experience. Simplify your transactions and get what you need with just a few clicks!</p>
+            <div class="btn">
+                <a href="#burgerA"><img src="Assets/burger btn.png" alt=""></a>
+                <a href="#pastaA"><img src="Assets/pasta btn.png" alt=""></a>
+                <a href="#friesA"><img src="Assets/fries btn.png" alt=""></a>
+                <a href="#drinkA"><img src="Assets/drinks btn.png" alt=""></a>
+            </div>
+            
+        </div> 
+    </div>
+    <div>
+        <br><br><br><br><br><br><br><br><br><br><br>
+    </div>
+
+
+
+
+
+
+
+    <div class="contcontent">
+        <img style="position: static; width: 100%;" src="assets/paper - Copy.png" alt="">
+        <br><br><br>
+        <div class="frm">
+            <img src="Assets/information/information banner.png" alt="">
+            <form method="get" action="confirmation form.html">
+                <h1>YOUR PROFILE</h1>
+                    <div class="formtbl">
+                    <table style="text-align: left;">
+                        <tr>
+                            <td><label for="fname">First Name</label></td>
+                            <td>&nbsp;</td>
+                            <td><label for="lname">Last Name</label></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" maxlength="50" id="fname" placeholder="Input Your First Name" required></td>
+                            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                            <td><input type="text" maxlength="50" id="lname" placeholder="Input Your Last Name" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="address">Shipping Address</label></td>
+                            <td>&nbsp;</td>
+                            <td><label for="contact">Contact number</label></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" maxlength="50" id="address" placeholder="Input Your Address" required></td>
+                            <td>&nbsp;</td>
+                            <td><input type="tel" id="contact" required placeholder="+63 (XXX) XXX-XXXX"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="email">Your Email</label></td>
+                            <td>&nbsp;</td>
+                            <td><label for="schedule">Scheduled Delivery</label></td>
+                        </tr>
+                        <tr>
+                            <td><input type="email" id="email" required placeholder="YourEmailAddress@example.com" ></td>
+                            <td>&nbsp;</td>
+                            <td><input type="datetime-local" id="schedule"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="schedule">Delivery Instructions</label></td>
+                        </tr>
+                        <tr>
+                            <td colspan="3"><textarea name="comments" id="direction" cols="40" rows="10" style="resize: none;"></textarea></td>
+                        </tr>
+
+            
+                    </table>
+                    </div>
+                    
+                
+                
+                    <br><br>
+                <div class="formtbl">
+                    
+                    <table style="text-align: center;">
+                        
+                        <tr>
+                                      
+                            <td rowspan="3"><input type="submit" value="Confirm Form"></td>
+                            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                            <td rowspan="3"><input type="reset" value="Clear Form"></td>
+                            
+                        </tr>
+                        
+                    </table>
+                    </div>
+                    <br><br><br>
+            </form>
+            
+            
+        </div> 
+        <br><br><br><br><br><br><br><br>
+        <div id="burgerA"  class="frm">
+                <img src="Assets/burger/Burger banner.png" alt="">
+                <form method="get" action="confirmation.html">
+                    <h1>CHOOSE YOUR BUN</h1>
+                    <div class="formtbl">
+                    <table>
+                        <tr>
+                            <td><img src="Assets/burger/white.png" alt=""></td>
+                            <td><img src="Assets/burger/wheat.png" alt=""></td>
+                            <td><img src="Assets/burger/honey.png" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td><input type="radio" id="white" name="bun">
+                                <label for="white">White Bun</label></td>
+                            <td><input type="radio" id="wheat" name="bun">
+                                <label for="wheat">Wheat Bun</label></td>
+                            <td><input type="radio" id="honey" name="bun">
+                                <label for="honey">Honey Oat</label></td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">&nbsp;</td>
+                            
+                        </tr>
+                        
+                        <tr>
+                            <td><img src="Assets/burger/donut.png" alt=""></td>
+                            <td><img src="Assets/burger/sugarfree.png" alt=""></td>
+                            <td><img src="Assets/burger/brioche.png" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td><input type="radio" id="glazed" name="bun">
+                                <label for="glazed">Glazed Donut Bun</label></td>
+                                <td><input type="radio" id="sugar" name="bun">
+                                    <label for="sugar">Sugar-free Bun</label></td>
+                            <td><input type="radio" id="brioche" name="bun">
+                                <label for="brioche">Brioche Bun</label></td>
+                        </tr>
+            
+                    </table>
+                    </div>
+
+                    <br><br><br><br><br><br>
+                    <h1>CHOOSE YOUR PATTY</h1>
+                    <div class="formtbl">
+                    <table>
+                        <tr>
+                            <td><img src="Assets/burger/singlepatty.png" alt=""></td>
+                            <td><img src="Assets/burger/doublepatty.png" alt=""></td>
+                            <td><img src="Assets/burger/triplepatty.png" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td><input type="radio" id="single" name="patty">
+                                <label for="single">Single patty</label></td>
+                            <td><input type="radio" id="double" name="patty">
+                                <label for="double">Double patty</label></td>
+                            <td><input type="radio" id="triple" name="patty">
+                                <label for="triple">Triple patty</label></td>
+                        </tr>
+            
+                    </table>
+                    </div>
+
+
+                    <br><br><br><br><br><br>
+                    <h1>ADDITIONAL ASS-ONS</h1>
+                    <div class="formtbl">
+                    <table style="text-align: left;">
+                        <tr>
+                            <td rowspan="18"><img src="Assets/burger/add ons.png" alt=""></td>
+                            <th><input type="checkbox" id="coleslaw" name="course">
+                                <label for="coleslaw">Coleslaw</label></th>
+                        </tr>
+                        
+                        <tr>
+                            <th><input type="checkbox" id="tomato" name="course" >
+                                <label for="tomato">Tomato</label></th>
+                        </tr>
+                        
+                        <tr>
+                            <th><input type="checkbox" id="cucumber" name="course" >
+                                <label for="cucumber">Cucumber</label></th>
+                        </tr>
+                       
+                        <tr>
+                            <th><input type="checkbox" id="bacon" name="course" >
+                                <label for="bacon">Bacon</label></th>
+                        </tr>
+                    
+                        <tr>
+                            <th><input type="checkbox" id="cheese" name="course">
+                                <label for="cheese">Cheese</label></th>
+                        </tr>
+                       
+                        <tr>
+                            <th><input type="checkbox" id="onion" name="course" >
+                                <label for="onion">Onion</label></th>
+                        </tr>
+
+                    </table>
+                    </div>
+                    <br><br><br><br>
+                    <div class="formtbl">
+                        <table style="text-align: left;">
+                            <tr>
+                                <th colspan="3" style="color: #FF9C00; font-size: 30px;">Burger</th>
+                            </tr>
+                            <tr>
+                                <td><label for="times">Quantity</label></td>   
+                                <td rowspan="3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>               
+                                <td rowspan="3"><input type="submit" value="Confirm Order"></td>
+                                <td rowspan="3"><input type="reset" value="Clear Form"></td>
+                                
+                            </tr>
+                            <tr>
+                                <td><input type="number" id="times" min="0"></td>
+                            </tr>
+    
+                        </table>
+                        </div>
+                        <br><br><br>
+                </form>
+                <br><br><br><br><br><br><br><br><br>
+                
+        </div>
+
+        
+
+
+
+
+
+
+
+
+
+
+        <div id="pastaA"  class="frm">
+            <img src="Assets/pasta/pasta banner.png" alt="">
+            <form method="get" action="confirmation.html">
+                <h1>CHOOSE YOUR SAUCE</h1>
+                    <div class="formtbl">
+                    <table>
+                        <tr>
+                            <td><img src="Assets/pasta/pesto.png" alt=""></td>
+                            <td><img src="Assets/pasta/alfredo.png" alt=""></td>
+                            <td><img src="Assets/pasta/marinara.png" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td><input type="radio" id="pesto" name="sauce">
+                                <label for="pesto">Basil Pesto sauce</label></td>
+                            <td><input type="radio" id="alfredo" name="sauce">
+                                <label for="alfredo">Alfredo sauce</label></td>
+                            <td><input type="radio" id="marinara" name="sauce">
+                                <label for="marinara">Marinara sauce</label></td>
+                        </tr>
+            
+                    </table>
+                    </div>
+                    <br><br><br><br><br><br>
+                <h1>CHOOSE YOUR PASTA</h1>
+                <div class="formtbl">
+                <table>
+                    <tr>
+                        <td><img src="Assets/pasta/Farfalle .png" alt=""></td>
+                        <td><img src="Assets/pasta/Fusilli.png" alt=""></td>
+                        <td><img src="Assets/pasta/elbow.png" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td><input type="radio" id="farfalle" name="pasta">
+                            <label for="farfalle">Farfalle pasta</label></td>
+                        <td><input type="radio" id="fusilli" name="pasta">
+                            <label for="fusilli">Fusilli pasta</label></td>
+                        <td><input type="radio" id="elbow" name="pasta">
+                            <label for="elbow">Elbow pasta</label></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">&nbsp;</td>
+                        
+                    </tr>
+                    
+                    <tr>
+                        <td><img src="Assets/pasta/Garganelli.png" alt=""></td>
+                        <td><img src="Assets/pasta/shell.png" alt=""></td>
+                        <td><img src="Assets/pasta/spaghetti.png" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td><input type="radio" id="garganelli" name="pasta">
+                            <label for="garganelli">Garganelli pasta</label></td>
+                            <td><input type="radio" id="Shell" name="pasta">
+                                <label for="Shell">Shell pasta</label></td>
+                        <td><input type="radio" id="Spaghetti" name="pasta">
+                            <label for="Spaghetti">Spaghetti pasta</label></td>
+                    </tr>
+        
+                </table>
+                </div>
+
+                <br><br><br><br><br><br>
+                <h1>ADDITIONAL ADD-ONS</h1>
+                <div class="formtbl">
+                <table style="text-align: left;">
+                    
+                    <tr>
+                        <td rowspan="7"><img src="Assets/pasta/additional.png" alt=""></td>
+                        <th><input type="checkbox" id="extraS" name="course1">
+                            <label for="extraS">Extra Sauce</label></th>
+                    </tr>
+                    <tr>
+                        <th><input type="checkbox" id="cheeseS" name="course1" >
+                            <label for="cheeseS">Cheese</label></th>
+                    </tr>
+                    
+                    <tr>
+                        <th><input type="checkbox" id="baconB" name="course1" >
+                            <label for="baconB">Bacon bits</label></th>
+                    </tr>
+                    
+                    <tr>
+                        <th><input type="checkbox" id="mushroom" name="course1" >
+                            <label for="mushroom">Mushrooms</label></th>
+                    </tr>
+                   
+                    <tr>
+                        <th><input type="checkbox" id="chicken" name="course1" >
+                            <label for="chicken">Grilled Chicken</label></th>
+                    </tr>
+                
+                    <tr>
+                        <th><input type="checkbox" id="shrimp" name="course1">
+                            <label for="shrimp">Shrimp</label></th>
+                    </tr>
+                   
+                    
+
+                </table>
+                </div>
+                <br><br><br><br>
+                <div class="formtbl">
+                    <table style="text-align: left;">
+                        <tr>
+                            <th colspan="3" style="color: #FF9C00; font-size: 30px;">Pasta</th>
+                        </tr>
+                        <tr>
+                            <td><label for="times">Quantity</label></td>   
+                            <td rowspan="3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>               
+                            <td rowspan="3"><input type="submit" value="Confirm Order"></td>
+                            <td rowspan="3"><input type="reset" value="Clear Form"></td>
+                            
+                        </tr>
+                        <tr>
+                            <td><input type="number" id="times" min="0"></td>
+                        </tr>
+
+                    </table>
+                    </div>
+                    <br><br><br>
+            </form>
+            <br><br><br><br><br><br><br><br><br>
+            
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div id="friesA"  class="frm">
+            <img src="Assets/fries/fries banner.png" alt="">
+            <form method="get" action="confirmation.html">
+                <h1>CHOOSE YOUR FRIES SIZE</h1>
+                    <div class="formtbl">
+                    <table>
+                        <tr>
+                            <td><img src="Assets/fries/small.png" alt=""></td>
+                            <td><img src="Assets/fries/medium.png" alt=""></td>
+                            <td><img src="Assets/fries/large.png" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td><input type="radio" id="small" name="fries">
+                                <label for="small">Small</label></td>
+                            <td><input type="radio" id="medium" name="fries">
+                                <label for="medium">Medium</label></td>
+                            <td><input type="radio" id="large" name="fries">
+                                <label for="large">Large</label></td>
+                        </tr>
+            
+                    </table>
+                    </div>
+                    <br><br><br><br><br><br>
+                <h1>CHOOSE YOUR FLAVOR</h1>
+                <div class="formtbl">
+                <table>
+                    <tr>
+                        <td><img src="Assets/fries/sourcreamF.png" alt=""></td>
+                        <td><img src="Assets/fries/bbqF.png" alt=""></td>
+                        <td><img src="Assets/fries/cheeseF.png" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td><input type="radio" id="sour" name="flavor">
+                            <label for="sour">Sour Cream flavor</label></td>
+                        <td><input type="radio" id="Barbecue" name="flavor">
+                            <label for="Barbecue">Barbecue flavor</label></td>
+                        <td><input type="radio" id="CheeseF" name="flavor">
+                            <label for="CheeseF">Cheese flavor</label></td>
+                    </tr>
+
+                </table>
+                </div>
+                
+                <br><br><br><br>
+                <div class="formtbl">
+                    <table style="text-align: left;">
+                        <tr>
+                            <th colspan="3" style="color: #FF9C00; font-size: 30px;">Fries</th>
+                        </tr>
+                        <tr>
+                            <td><label for="times">Quantity</label></td>   
+                            <td rowspan="3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>               
+                            <td rowspan="3"><input type="submit" value="Confirm Order"></td>
+                            <td rowspan="3"><input type="reset" value="Clear Form"></td>
+                            
+                        </tr>
+                        <tr>
+                            <td><input type="number" id="times" min="0"></td>
+                        </tr>
+
+                    </table>
+                    </div>
+                    <br><br><br>
+            </form>
+            <br><br><br><br><br><br><br><br><br>
+            
+        </div>
+
+
+
+
+
+
+
+
+
+
+        <div id="drinkA"  class="frm">
+            <img src="Assets/drinks/drinks banner.png" alt="">
+            <form method="get" action="confirmation.html">
+                <h1>CHOOSE YOUR DRINK SIZE</h1>
+                    <div class="formtbl">
+                    <table>
+                        <tr>
+                            <td><img src="Assets/drinks/smallD.png" alt=""></td>
+                            <td><img src="Assets/drinks/medD.png" alt=""></td>
+                            <td><img src="Assets/drinks/sizeD.png" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td><input type="radio" id="small1" name="drinks">
+                                <label for="small1">Small</label></td>
+                            <td><input type="radio" id="medium1" name="drinks">
+                                <label for="medium1">Medium</label></td>
+                            <td><input type="radio" id="large1" name="drinks">
+                                <label for="large1">Large</label></td>
+                        </tr>
+            
+                    </table>
+                    </div>
+                    <br><br><br><br><br><br>
+                <h1>CHOOSE YOUR DRINK</h1>
+                <div class="formtbl">
+                <table>
+                    <tr>
+                        <td><img src="Assets/drinks/cucumber.png" alt=""></td>
+                        <td><img src="Assets/drinks/lemon.png" alt=""></td>
+                        <td><img src="Assets/drinks/icedtea.png" alt=""></td>
+                        <td><img src="Assets/drinks/cola.png" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td><input type="radio" id="cucumberD" name="Dflavor">
+                            <label for="cucumberD">Cucumber Drink</label></td>
+                        <td><input type="radio" id="lemon" name="Dflavor">
+                            <label for="lemon">Lemonade</label></td>
+                        <td><input type="radio" id="tea" name="Dflavor">
+                            <label for="tea">Iced tea</label></td>
+                        <td><input type="radio" id="cola" name="Dflavor">
+                            <label for="cola">Cola</label></td>    
+                    </tr>
+
+                </table>
+                </div>
+                
+                <br><br><br><br>
+                <div class="formtbl">
+                    <table style="text-align: left;">
+                        <tr>
+                            <th colspan="3" style="color: #FF9C00; font-size: 30px;">Drinks</th>
+                        </tr>
+                        <tr>
+                            <td><label for="times">Quantity</label></td>   
+                            <td rowspan="3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>               
+                            <td rowspan="3"><input type="submit" value="Confirm Order"></td>
+                            <td rowspan="3"><input type="reset" value="Clear Form"></td>
+                            
+                        </tr>
+                        <tr>
+                            <td><input type="number" id="times" min="0"></td>
+                        </tr>
+
+                    </table>
+                    </div>
+                    <br><br><br>
+            </form>
+            <br><br><br><br><br><br><br><br><br>
+            
+        </div>
+
+
+
+
+        <div class="frm">
+            <img src="Assets/evaluation/evaluation banner.png" alt="">
+            <form method="get" action="confirmation form.html">
+                <h1>ADDITIONAL INFORMATION</h1>
+                    <div class="formtbl">
+                    <table style="text-align: left;">
+                        <tr>
+                            <td><label for="proof">Upload proof of payment</label></td>
+                            <td>&nbsp;</td>
+                            <td><label for="times1">Rate our Delivery Service</label></td>
+                        </tr>
+                        
+                        <tr>
+                            <td><input type="file" id="file" name="proof"></td>
+                            <td>&nbsp;</td>
+                            <td><input type="range" id="times1" min="0" max="10"></td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td><label for="address">Pick-up or Delivery</label></td>
+                            
+                            
+                        </tr>
+                        <tr>
+                            <td ><input type="radio" id="delivery" name="delivery1">
+                            <label for="delivery">Delivery</label>
+                    
+                            <input type="radio" id="pickup" name="delivery1">
+                            <label for="pickup">Pick-up</label>
+                            </td>
+                            <td>&nbsp;</td>
+                            
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td><label for="feedback">Ordering Form Improvement Feedback</label></td>
+                        </tr>
+                        <tr>
+                            <td colspan="3"><textarea name="feedback" id="feedback" cols="40" rows="10" style="resize: none;"></textarea></td>
+                        </tr>
+
+            
+                    </table>
+                    </div>
+                    
+                
+                
+                    <br><br>
+                <div class="formtbl">
+                    
+                    <table style="text-align: center;">
+                        
+                        <tr>
+                                      
+                            <td rowspan="3"><input type="submit" value="Confirm Form"></td>
+                            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                            <td rowspan="3"><input type="reset" value="Clear Form"></td>
+                            
+                        </tr>
+                        
+                    </table>
+                    </div>
+                    <br><br><br>
+            </form>
+            
+            
+        </div> 
+        <br><br><br><br><br><br><br><br>
+
+
+
+
+
+
+
+        
+    </div>
+</body>
+</html>
