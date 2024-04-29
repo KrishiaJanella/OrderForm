@@ -110,7 +110,7 @@ form{
     align-items: center; /* Vertical alignment */  
 }
 .frm h1{
-    font-family: "Hussar Bold";
+    font-family: "Hussar Bold", 'Gill Sans', 'Gill Sans MT';
     src: url('https://www.fontsaddict.com/fontface/hussar-bold.ttf');
     font-size: 25px;
     margin: 30px 30px 30px 50px;
